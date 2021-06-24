@@ -1,0 +1,13 @@
+@import 'general';
+@import 'grid';
+@import 'helpers';
+@import 'variables';
+@import 'buttons';
+
+.grid {
+    min-height: 100vh;
+    display: grid;
+    gap: 1;
+    grid-auto-flow: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}

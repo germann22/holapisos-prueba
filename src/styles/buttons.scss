@@ -1,0 +1,15 @@
+@import 'variables';
+
+.btn {
+    border-radius: 1.5rem;
+    outline: none;
+    border: 0px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    &:hover{
+        filter: saturate(1.2);
+    }
+    &.orange {
+        background-color: $orange;
+    }
+}
